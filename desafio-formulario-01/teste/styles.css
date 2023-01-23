@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-weight: 400;
+  background: #E5E5E5;
+  color: #4E4958;
+  
+}
+
+body::before{
+  content: "";
+  width:100%;
+  position: absolute;
+  z-index: -1;
+  height: 436px;
+  top: 0;
+  left: 0;
+  background:#535971;
+}
+
+.pag{
+  width: 750px;
+  margin: auto;
+}
+
+.hearder {
+  width: 417px;
+}
+ 
+.title {
+  font-family: 'Staatliches', cursive;
+  font-size: 48px;
+  line-height: 60px;
+  
+  margin-top: 140px;
+  color: #FFFFFF;
+}
+
+.paragraph{
+  font-size:20px;
+  line-height: 30px;
+  margin-top: 18px;
+  color: #FFFFFF;
+
+}
+
+.form{
+  min-width: 750px;
+  background:#FFFFFF;
+  margin-top: 58px;
+  padding: 64px;
+}
+
+.sub-title{
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #535971;
+  line-height: 34px;
+
+  border-bottom: 1px solid #E6E6F0;
+  width: 100%;
+  padding:16px;
+
+}
+
+.field-wrapper{
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+/* 
+.teste{
+  display: flex;
+  
+} */
+
+.input{
+  line-height: 56px;
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  gap: 16px;
+  direction: none;
+}
+
+.lab-input{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 16px 0 8px; 
+}
+
+.info-detail{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+  margin-left: 8px;
+  color: #C1BCCC;
+}
+
+.info-detail:hover{
+  color:#78747e;
+}
+
